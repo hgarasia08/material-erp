@@ -176,7 +176,7 @@ const Vendor = () => {
 </button>
       <table className="table table-bordered">
         <thead>
-          <tr>
+          <tr> 
              <th>Sr No.</th>
             <th onClick={() => handleSort("name")}>Name ⬍</th>
             <th onClick={() => handleSort("phone")}>Phone ⬍</th>
